@@ -5,3 +5,17 @@ J
 src/clases/Ejercicio3.java,b\7\b7d3af0617e8b37e3a71347bffb0adc1d9e471af
 J
 src/clases/Ejercicio2.java,2\3\23fd15a41dc4380b621367a0fb903ae975b065bc
+J
+src/clases/Ejercicio4.java,a\e\ae9d32ea9bbc860e93c3b1b6e2e26b7972efd5d4
+J
+src/clases/Ejercicio5.java,3\5\3554260ab37aee274fab6d5a516663b57cd8760a
+J
+src/clases/Ejercicio6.java,1\2\12c70d27a2fa59d8abd20254d46be5d245fbbf90
+J
+src/clases/Ejercicio7.java,7\8\7870b7ec45771564c547e6faaa56c037010e33bf
+J
+src/clases/Ejercicio8.java,f\b\fbc342ff47812067763418f184b103573d1b8688
+J
+src/clases/Ejercicio9.java,8\8\88f21b0e418602cb6ee35fec219b398ca426d432
+K
+src/clases/Ejercicio10.java,5\b\5b71b370694bb50dfeeaa424f3445adbe3670b3a
