@@ -16,7 +16,9 @@ public class Persona {
     final int pesoEncima = 1;
     Random random = new Random();
 
-    //Constructor por defecto
+
+
+    //Constructor
     public Persona() {
         this.nombre="";
         this.edad=0;
