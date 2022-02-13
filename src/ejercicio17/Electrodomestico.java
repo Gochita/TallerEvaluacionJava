@@ -2,10 +2,10 @@ package ejercicio17;
 
 public class Electrodomestico {
     //atributos
-    private double precioBase;
-    private String color;
-    private char consumoEnergetico;
-    private double peso;
+    protected double precioBase;
+    protected String color;
+    protected char consumoEnergetico;
+    protected double peso;
 
 
     //constantes
@@ -25,15 +25,15 @@ public class Electrodomestico {
     public Electrodomestico(double precioBase, double peso) {
         this.precioBase = precioBase;
         this.peso = peso;
-        this.color = colorDef;
-        this.consumoEnergetico = consumoDef;
+        this.color = comprobarColor(color);
+        this.consumoEnergetico = comprobarConsumoEnergetico(consumoEnergetico);
 
     }
 
     public Electrodomestico(double precioBase, String color, char consumoEnergetico, double peso) {
         this.precioBase = precioBase;
-        this.color = color;
-        this.consumoEnergetico = consumoEnergetico;
+        this.color = comprobarColor(color);
+        this.consumoEnergetico = comprobarConsumoEnergetico(consumoEnergetico);
         this.peso = peso;
     }
 
@@ -98,10 +98,11 @@ public class Electrodomestico {
                 precioConsumo = 50;
                 break;
             case 'E':
-                precioConsumo = 60;
+                precioConsumo = 30;
                 break;
             case 'F':
                 precioConsumo = 10;
+                break;
             default:
                 precioConsumo = 10;
 
